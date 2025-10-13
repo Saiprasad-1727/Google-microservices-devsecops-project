@@ -75,7 +75,7 @@ pipeline {
                 dir('src/adservice') {
                     withCredentials([string(credentialsId: 'docker-cred', variable: 'dockerpwd')]) {
                         sh '''
-                        docker login -u saiprasad1727 -p sai1727@#
+                        docker login -u saiprasad1727 -p ${dockerpwd}
                         docker push ${IMAGE_TAG}
                         docker tag ${IMAGE_NAME} ${DOCKER_NAME}:latest
                         docker push ${DOCKER_NAME}:latest
