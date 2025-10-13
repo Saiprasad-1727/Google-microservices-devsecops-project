@@ -24,7 +24,7 @@ pipeline {
             steps {
                 git branch: 'main', url: 'https://github.com/Saiprasad-1727/Google-microservices-devsecops-project.git'
         }
-
+        }
         // --- Static Security Scan (SAST) ---
         stage('Go Security Scan (gosec)') {
             steps {
