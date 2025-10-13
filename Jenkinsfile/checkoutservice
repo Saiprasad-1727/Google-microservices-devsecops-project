@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        DOCKER_NAME = 'harishnshetty/checkoutservice'
+        DOCKER_NAME = 'saiprasad1727/checkoutservice'
         IMAGE_NAME = 'checkoutservice'
         // This is a global definition. We'll ensure it's used correctly below.
         GO_BIN_PATH = '$(go env GOPATH)/bin'
