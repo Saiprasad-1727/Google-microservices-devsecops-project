@@ -16,7 +16,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: shop.harishshetty.xyz
+    - host: devopsdream.shop
       http:
         paths:
           - path: /
