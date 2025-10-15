@@ -122,7 +122,7 @@ pipeline {
                             <p>Started by: ${buildUser}</p>
                             <p>Build URL: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
                         """,
-                        to: 'saiprasad1727tinku@gmail.com',
+                        to: 'rohankadipikonda@gmail.com',
                         from: 'saiprasad1727tinku@gmail.com',
                         mimeType: 'text/html',
                         attachmentsPattern: 'dependency-check-report.xml,trivy-fs-report.txt,trivy-image-ad.json,trivy-image-ad.txt'
